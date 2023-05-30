@@ -22,8 +22,8 @@ various distributions.
 =head1 Reasoning
 
 When developing an application we usually don't want to build our own machine. Neither
-compile our own kernel. In most of the cases we won't want to compile and install 
-our own version of a database engine nor Apache or any other 3rd party tool. 
+compile our own kernel. In most of the cases we won't want to compile and install
+our own version of a database engine nor Apache or any other 3rd party tool.
 So my assumption is that we won't want to install our CPAN dependencies either.
 Again - in the standard case.
 
@@ -32,30 +32,30 @@ should not deal with all these packages. Most of us know how much people suffer 
 need to install 10s of modules and their dependencies from CPAN. Especially for modules
 with dependencies outside of CPAN.
 
-While CPAN.pm, CPANPLUS.pm have improved a lot they still cannot deal with cases when one 
+While CPAN.pm, CPANPLUS.pm have improved a lot they still cannot deal with cases when one
 of the dependencies fails to install cleanly.
 
-In addition while we usually want to work with recent versions of modules from CPAN, 
+In addition while we usually want to work with recent versions of modules from CPAN,
 we usually don't want to get the bleeding edge. Espcially not in applications.
 
 =head1 General resources
 
-L<http://www.szabgab.com/distributions/> Statistics about CPAN modules in the various distributions
+L<https://szabgab.com/distributions/> Statistics about CPAN modules in the various distributions
 
 =head2 Related mailing lists
 
 Module Authors: L<http://lists.cpan.org/showlist.cgi?name=module-authors>
 
-Perl QA L<http://qa.perl.org> and the mailing list L<http://lists.cpan.org/showlist.cgi?name=perl-qa>
+Perl QA L<https://qa.perl.org> and the mailing list L<https://lists.cpan.org/showlist.cgi?name=perl-qa>
 
-CPAN Testers L<http://testers.cpan.org/>
+CPAN Testers L<https://testers.cpan.org/>
 
-CPAN Discuss http://lists.cpan.org/showlist.cgi?name=cpan-discuss
+CPAN Discuss L<https://lists.cpan.org/showlist.cgi?name=cpan-discuss>
 
 
 =head1 Guidelines for inclusion
 
-In addition to the guidelines of each distribution on which module to include, 
+In addition to the guidelines of each distribution on which module to include,
 when to upgrade etc. we would like to setup our own guidelines to help people
 decide what to include, what would be the priorites, when to upgrade a module
 etc.
@@ -93,7 +93,7 @@ Requirements for inclusion or upgrade
 
 =item * The tests of all the currently available dependent modules in the system pass with this new version
 
-=item * A broader requirement would be that the version has no failing test reports on any other system, 
+=item * A broader requirement would be that the version has no failing test reports on any other system,
        though this requirement might be too harsh and unnecessary
 
 
@@ -109,9 +109,7 @@ Requirements for inclusion or upgrade
 
 =head1 SEE ALSO
 
-L<http://www.mail-archive.com/module-authors@perl.org/msg05248.html>
-
-L<http://use.perl.org/~Alias/journal/32221>
+L<https://www.mail-archive.com/module-authors@perl.org/msg05248.html>
 
 PIG has moved here: L<http://svn.ali.as/cpan/trunk/PIG/>
 
@@ -119,7 +117,7 @@ cpan2dist is a script from L<CPANPLUS>
 
 =head1 AUTHOR
 
-This document is maintained by Gabor Szabo <gabor@pti.co.il>
+This document is maintained by Gabor Szabo <gabor@szabgab.com>
 
 =cut
 
